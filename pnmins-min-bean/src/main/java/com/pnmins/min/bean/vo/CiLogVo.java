@@ -2,7 +2,7 @@ package com.pnmins.min.bean.vo;
 
 import java.util.Map;
 /***
- * @Author qr
+ * @Author qr 111
  * @Description 日志实体类
  * @Date  16:12
  **/
