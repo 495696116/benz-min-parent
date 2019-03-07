@@ -8,6 +8,14 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/***
+ * @ClassName UserInfoServiceImpl
+ * @Description 测试
+ * @Date 2019/3/7 18:54
+ * @Author qr
+ * @Param
+ * @return
+ **/
 @Service
 public class UserInfoServiceImpl implements UserInfoService {
 
