@@ -15,19 +15,21 @@ import java.util.Map;
  **/
 public class CommonUtils {
 
-    /**
-     * 打日志log
-     * @param stDate
-     * @param req
-     * @param res
-     */
-    public static void doLog(Logger logger, Date stDate, Object req, Object res){
+    /***
+     * @ClassName CommonUtils
+     * @Description 打日志log
+     * @Date 2019/3/8 10:51
+     * @Author qr
+     * @Param [logger, req, res]
+     * @return void
+     **/
+    public static void doLog(Logger logger, Object req, Object res){
         CiLogVo logvo=new CiLogVo();
         Map<String, Object> reqcontent=new HashMap<String, Object>();
         Map<String, Object> rescontent=new HashMap<String, Object>();
         reqcontent.put("入参详细", req);
         logvo.setRequestContent(reqcontent);
-        logvo.setRequestDate(DateUtil.dateToString(stDate, DateUtil.DATE_FORMAT_FIVE));
+        logvo.setRequestDate(DateUtil.dateToString(new Date(), DateUtil.DATE_FORMAT_FIVE));
         //开始执行方法
         rescontent.put("返回参数",  res);
         logvo.setResponseContent(rescontent);

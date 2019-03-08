@@ -35,6 +35,18 @@ spring:
     # 合并多个DruidDataSource的监控数据
       useGlobalDataSourceStat: true
     ###############以上为配置druid添加的配置########################################
+  #redis
+  redis:
+    database: 0
+    host: 10.20.92.49
+    port: 7007
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1s
+        max-idle: 8
+        min-idle: 1
+    timeout: 60s
 
 mybatis:
   mapper-locations: classpath*:sqlmapper/*Mapper.xml
