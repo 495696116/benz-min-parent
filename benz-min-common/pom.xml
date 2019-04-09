@@ -5,21 +5,21 @@
 
     <!-- 继承父项目 -->
     <parent>
-        <groupId>com.pnmins.min.parent</groupId>
-        <artifactId>pnmins-min-parent</artifactId>
+        <groupId>com.benz.min.parent</groupId>
+        <artifactId>benz-min-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.pnmins.min.common</groupId>
-    <artifactId>pnmins-min-common</artifactId>
+    <groupId>com.benz.min.common</groupId>
+    <artifactId>benz-min-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pnmins-min-common</name>
+    <name>benz-min-common</name>
     <description>公用方法与chan常量类</description>
 
     <dependencies>
         <dependency>
-            <groupId>com.pnmins.min.bean</groupId>
-            <artifactId>pnmins-min-bean</artifactId>
+            <groupId>com.benz.min.bean</groupId>
+            <artifactId>benz-min-bean</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

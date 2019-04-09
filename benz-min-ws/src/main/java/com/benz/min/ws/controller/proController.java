@@ -1,4 +1,4 @@
-package com.pnmins.min.ws.controller;
+package com.benz.min.ws.controller;
 
 import com.pnmins.min.bean.vo.userInfo;
 import com.pnmins.min.common.redis.RedisService;

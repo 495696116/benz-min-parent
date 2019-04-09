@@ -1,4 +1,4 @@
-package com.pnmins.min.ws;
+package com.benz.min.ws;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.pnmins.min.*"})
+@ComponentScan(basePackages = {"com.benz.min.*"})
 public class PnminMinWsApplication {
 
 

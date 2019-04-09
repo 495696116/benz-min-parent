@@ -14,11 +14,11 @@
 
 
 	<!-- 基本信息  -->
-	<groupId>com.pnmins.min.parent</groupId>
+	<groupId>com.benz.min.parent</groupId>
 	<packaging>pom</packaging>
-	<artifactId>pnmins-min-parent</artifactId>
+	<artifactId>benz-min-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>pnmins-min-parent</name>
+	<name>benz-min-parent</name>
 
 
 
@@ -33,11 +33,11 @@
 
 	<!-- 模块说明：这里声明多个子模块 -->
 	<modules>
-		<module>pnmins-min-bean</module>
-		<module>pnmins-min-common</module>
-		<module>pnmins-min-dao</module>
-		<module>pnmins-min-service</module>
-		<module>pnmins-min-ws</module>
+		<module>benz-min-bean</module>
+		<module>benz-min-common</module>
+		<module>benz-min-dao</module>
+		<module>benz-min-service</module>
+		<module>benz-min-ws</module>
 	</modules>
 
 

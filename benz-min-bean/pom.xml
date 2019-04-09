@@ -6,16 +6,16 @@
 
     <!-- 继承父项目 -->
     <parent>
-        <groupId>com.pnmins.min.parent</groupId>
-        <artifactId>pnmins-min-parent</artifactId>
+        <groupId>com.benz.min.parent</groupId>
+        <artifactId>benz-min-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
 
-    <groupId>com.pnmins.min.bean</groupId>
-    <artifactId>pnmins-min-bean</artifactId>
+    <groupId>com.benz.min.bean</groupId>
+    <artifactId>benz-min-bean</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pnmins-min-bean</name>
+    <name>benz-min-bean</name>
     <description>实体层</description>
 
 
