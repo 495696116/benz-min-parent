@@ -1,7 +1,7 @@
-package com.pnmins.min.service;
+package com.benz.min.service;
 
 
-import com.pnmins.min.bean.vo.userInfo;
+import com.benz.min.bean.vo.userInfo;
 
 import java.util.List;
 

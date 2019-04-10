@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
@@ -69,7 +68,7 @@ public class proController {
         u.setName("ph 队列1");
 
         //打印日志工具类，存放某一个日之类,时间,入参 ， 出参
-        CommonUtils.doLog(qiaoLogger,list.get(0),list.get(2));
+        CommonUtils.doLog(qiaoLogger, list.get(0), list.get(2));
         return "提供服务:center" + sb.toString();
     }
 

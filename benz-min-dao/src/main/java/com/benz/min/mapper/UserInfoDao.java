@@ -1,7 +1,7 @@
-package com.pnmins.min.mapper;
+package com.benz.min.mapper;
 
 
-import com.pnmins.min.bean.vo.userInfo;
+import com.benz.min.bean.vo.userInfo;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

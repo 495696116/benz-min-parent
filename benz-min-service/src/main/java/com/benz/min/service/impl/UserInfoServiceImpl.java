@@ -1,8 +1,8 @@
-package com.pnmins.min.service.impl;
+package com.benz.min.service.impl;
 
-import com.pnmins.min.bean.vo.userInfo;
-import com.pnmins.min.mapper.UserInfoDao;
-import com.pnmins.min.service.UserInfoService;
+import com.benz.min.bean.vo.userInfo;
+import com.benz.min.mapper.UserInfoDao;
+import com.benz.min.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
