@@ -1,7 +1,6 @@
 package com.benz.min.common.utils;
 
 
-import com.pnmins.min.common.utils.StringUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

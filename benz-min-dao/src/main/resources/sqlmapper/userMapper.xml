@@ -2,10 +2,10 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.pnmins.min.mapper.UserInfoDao">
+<mapper namespace="com.benz.min.mapper.UserInfoDao">
 
 
-    <select id="queryPH" resultType="com.pnmins.min.bean.vo.userInfo">
+    <select id="queryPH" resultType="com.benz.min.bean.vo.userInfo">
           select * from user
     </select>
 

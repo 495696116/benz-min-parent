@@ -2,7 +2,7 @@ server:
   port: 9200
 spring:
   application:
-    name: pnmins_min
+    name: benz_min
   datasource:
       type: com.alibaba.druid.pool.DruidDataSource
       url: jdbc:mysql://47.101.188.136:3306/pnmis_min?useUnicode=true&characterEncoding=utf8

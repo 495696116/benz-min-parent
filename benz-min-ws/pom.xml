@@ -42,8 +42,8 @@
         </dependency>
 
         <dependency>
-            <groupId>com.pnmins.min.service</groupId>
-            <artifactId>pnmins-min-service</artifactId>
+            <groupId>com.benz.min.service</groupId>
+            <artifactId>benz-min-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

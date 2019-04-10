@@ -1,9 +1,9 @@
 package com.benz.min.ws.controller;
 
-import com.pnmins.min.bean.vo.userInfo;
-import com.pnmins.min.common.redis.RedisService;
-import com.pnmins.min.common.utils.CommonUtils;
-import com.pnmins.min.service.UserInfoService;
+import com.benz.min.bean.vo.userInfo;
+import com.benz.min.common.redis.RedisService;
+import com.benz.min.common.utils.CommonUtils;
+import com.benz.min.service.UserInfoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
