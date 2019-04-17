@@ -47,7 +47,7 @@ public class proController {
         System.out.println(info);
 
         //测试redis 存放 String
-        redis.set("q", "123", 60);
+        redis.set("q", "123", 1000);
         String v = redis.getString("q");
         System.out.println(v);
 
@@ -68,7 +68,7 @@ public class proController {
         u.setName("ph 队列1");
 
         //打印日志工具类，存放某一个日之类,时间,入参 ， 出参
-        CommonUtils.doLog(qiaoLogger, list.get(0), list.get(2));
+        CommonUtils.doLog(qiaoLogger, "11111", "2222");
         return "提供服务:center" + sb.toString();
     }
 
